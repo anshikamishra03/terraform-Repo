@@ -19,7 +19,7 @@ provider "azurerm" {
 }
 ```
 
-In your other Terraform configuration files, you can then use the aws and azurerm providers to create resources in AWS and Azure, respectively,
+3. In your other Terraform configuration files, you can then use the aws and azurerm providers to create resources in AWS and Azure, respectively,
 
 ```hcl
 resource "aws_instance" "example" {
