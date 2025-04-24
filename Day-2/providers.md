@@ -6,7 +6,7 @@ For example, if you want to use Terraform to create a virtual machine on AWS, yo
 
 Here is an example of how to use the aws provider in a Terraform configuration:
 
-'''hcl
+'''
 provider "aws" {
   region = "us-east-1"
 }
