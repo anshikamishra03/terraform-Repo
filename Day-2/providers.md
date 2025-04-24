@@ -6,13 +6,12 @@ For example, if you want to use Terraform to create a virtual machine on AWS, yo
 
 Here is an example of how to use the aws provider in a Terraform configuration:
 
-'''
+```hcl
 provider "aws" {
   region = "us-east-1"
 }
 
 resource "aws_instance" "example" {
-  ami = "ami-0123456789abcdef0" # Change the AMI 
+  ami           = "ami-0123456789abcdef0" # Change the AMI
   instance_type = "t2.micro"
 }
-'''
